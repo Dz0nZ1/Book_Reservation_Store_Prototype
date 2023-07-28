@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-container {
+    margin: 10px;
+  }
+  
+  .book-card {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .book-image {
+    width: 100px;
+    margin-right: 10px;
+  }
+  
+  .book-image img {
+    width: 100%;
+  }
+  
+  .book-details p {
+    margin: 0;
+  }
+  .buttonPurached{
+    color: white;
+    background-color: green !important;
+    margin: auto;
+  }
+  .wrapper {
+    background-image: url(../../../assets/images/slika1.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: start;
+    overflow: hidden;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center; /* Center the cards horizontally on larger screens */
+  }
+  
+  .card-container {
+    width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .wrapper {
+      grid-template-columns: 1fr; /* On screens smaller than 768px, show a single column layout */
+    }
+  
+    .card-container {
+      display: flex;
+      justify-content: center; /* Center the card horizontally */
+    }
+  }
+  
+  
+  
+  
