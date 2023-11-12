@@ -1,4 +1,4 @@
-# Book_Store_Prototype
+# Book_Reservation_Store_Prototype
 
 ### Overview
 This project is a prototype of an Angular-based application for a simple book store. The application allows users to view a list of current books, apply filters, explore book details through a modal, add or remove books from the cart, and reserve books for future purchase.
