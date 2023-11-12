@@ -3,14 +3,17 @@
 ### Overview
 This project is a prototype of an Angular-based application for a simple book store. The application allows users to view a list of current books, apply filters, explore book details through a modal, add or remove books from the cart, and reserve books for future purchase.
 
+<hr>
+
 ### Getting Started
 To run the application, follow these steps:
 
-1. Install dependencies:
- #### npm install
+ #### 1. npm install
  
-2. Start the development server:
- #### ng serve
+
+ #### 2. ng serve
+
+ <hr>
 
 ### Features
 
@@ -25,6 +28,8 @@ Add and Remove from Cart: Easily manage your shopping cart by adding or removing
 Book Reservation: Reserve your desired books
 
 List of Reserved Books: Keep track of the books you have reserved for a seamless shopping experience.
+
+<hr>
 
 ### Technologies Used
 Angular: The application is built using the Angular framework.
